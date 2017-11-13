@@ -148,41 +148,32 @@ textarea {
 
 
 .section{
-	height:100vh;
-	min-height:700px;
+	width:100%;
+	min-height:600px;
 	background-color:#00BCBC;
 	display:flex;
+	justify-content:end;
+
 	
 
 	
 	
 }
 
-.us{
+}
+ .roast{
 	display:flex;
-	border:1px solid black;
-	width:100%;
-	
-}
-
-}
-.roast{
-	display:flex;
-	background-size:100%;
 	background-position:center;
 	background-repeat:no-repeat;
-	
-
-	
-	
-
+	width:60%;	
 
 }
-.us .abore{
-	display:flex;
+.abore{
+	
 	flex-direction:column;
 	justify-content:center;
 	width:50%;
+	padding-top:150px;
 	
 }
 .abore h1{
@@ -192,7 +183,7 @@ textarea {
 	font-weight: 700;
 	line-height: 27px;
 }
-.abore p{
+.abore h3{
 	color:  #ffffff;
 	font-size: 17px;
 	font-weight: 300;
@@ -335,6 +326,7 @@ a{
 	background-position:center;
 
 }
+
 .container div:nth-child(2){
 	grid-column:5/7;
 	grid-row:;
